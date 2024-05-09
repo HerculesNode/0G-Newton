@@ -1,4 +1,4 @@
-![image](https://github.com/HerculesNode/0G-Testnet/assets/101635385/4b44e27c-d4aa-479f-8f01-42f92edfb36c)
+![image](https://github.com/HerculesNode/0G-Newton/assets/101635385/9f3bd440-d371-47b5-afcd-f0d0f4e342d1|width=10)
 
 
 
