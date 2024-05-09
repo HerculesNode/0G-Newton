@@ -188,7 +188,7 @@ sudo journalctl -u 0gchaind.service -f --no-hostname -o cat
 - Yeni cüzdan oluşturma
 
 ```shell
-0gchaind keys add cuzdan-adini-yaz
+0gchaind keys add cuzdan-adini-yaz --eth
 ```
 
 ## 🟢 Evm adresi alma recover ettiyseniz aynısını verecek. Yeni oluşturduysanız onunla alakalı olanı verecek
