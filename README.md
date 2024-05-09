@@ -236,5 +236,5 @@ echo "0x$(0gchaind debug addr $(0gchaind keys show CÜZDAN-ADINI-YAZ -a) | grep 
 ## 🟢 Delege işlemi
 
 ```shell
-0gchaind tx staking delegate $(0gchaind keys show CÜZDAN-ADINI-YAZIN --bech val -a)  1000000ua0gi --from wallet -y
+0gchaind tx staking delegate $(0gchaind keys show cüzdanadınıyaz --bech val -a) 1000000ua0gi --from cüzdanadınızyaz -y
 ```
