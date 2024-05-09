@@ -182,7 +182,7 @@ sudo journalctl -u 0gchaind.service -f --no-hostname -o cat
 - recover kodu : Bu kod eski memoricler ile recover yapar.
 
 ```shell
-0gchaind keys add --recover CÜZDAN-ADINI-YAZ
+0gchaind keys add --recover CÜZDAN-ADINI-YAZ --eth
 ```
 
 - Yeni cüzdan oluşturma
