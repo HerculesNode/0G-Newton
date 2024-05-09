@@ -179,19 +179,19 @@ sudo journalctl -u 0gchaind.service -f --no-hostname -o cat
 
 ## 🟢 Cüzdan oluşturma ( Eğer daha önceki testnete katıldıysanız aynı cüzdanı recover edin. İlk defa kuruyorsanız recover olan kodu kullanmayın.
 
-- recover kodu :
+- recover kodu : Bu kod eski memoricler ile recover yapar.
 
 ```shell
 0gchaind keys add --recover CÜZDAN-ADINI-YAZ
 ```
 
-- Yeni oluşturma
+- Yeni cüzdan oluşturma
 
 ```shell
 0gchaind keys add cuzdan-adini-yaz
 ```
 
-## 🟢 Evm adresi alma recover ettiyseniz aynısını verecek
+## 🟢 Evm adresi alma recover ettiyseniz aynısını verecek. Yeni oluşturduysanız onunla alakalı olanı verecek
 
 ```shell
 echo "0x$(0gchaind debug addr $(0gchaind keys show CÜZDAN-ADINI-YAZ -a) | grep hex | awk '{print $3}')"
