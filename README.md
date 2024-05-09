@@ -182,13 +182,13 @@ sudo journalctl -u 0gchaind.service -f --no-hostname -o cat
 - recover kodu :
 
 ```shell
-0gchaind keys add --recover CÜZDAN-ADINI-YAZ --eth
+0gchaind keys add --recover CÜZDAN-ADINI-YAZ
 ```
 
 - Yeni oluşturma
 
 ```shell
-0gchaind keys add cuzdan-adini-yaz --eth
+0gchaind keys add cuzdan-adini-yaz
 ```
 
 ## 🟢 Evm adresi alma recover ettiyseniz aynısını verecek
