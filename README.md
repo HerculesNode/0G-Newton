@@ -20,9 +20,9 @@
 - 8 GB RAM
 - CPU: 4 cores
 - Disk: 500 GB SSD
-- Ubuntu 20.04
 
 - Bunlar max gereksinim daha düşükte çalıştırabilir !
+
 ## 🟢 Sistemi güncelleyelim
 ```shell
 sudo apt update && \
