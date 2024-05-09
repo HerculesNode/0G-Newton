@@ -208,6 +208,9 @@ echo "0x$(0gchaind debug addr $(0gchaind keys show CÜZDAN-ADINI-YAZ -a) | grep 
 0gchaind status | jq
 ```
 
+![image](https://github.com/HerculesNode/0G-Newton/assets/101635385/1dba9cf6-65f6-44d6-aa97-501136d7a297)
+
+
 ## 🟢 Validatör oluşturun ( Moniker yani görünen isminizi yazın ve cüzdan ismini yazın
 
 ```shell
