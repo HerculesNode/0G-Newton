@@ -227,3 +227,14 @@ echo "0x$(0gchaind debug addr $(0gchaind keys show CÜZDAN-ADINI-YAZ -a) | grep 
   --node=http://localhost:16657 \
   -y
 ```
+
+## 🟢 Faucet
+
+- Buradan faucet token alın. EVM adresi ile alacaksınız
+- https://faucet.0g.ai/
+
+## 🟢 Delege işlemi
+
+```shell
+0gchaind tx staking delegate $(0gchaind keys show CÜZDAN-ADINI-YAZIN --bech val -a)  1000000ua0gi --from wallet -y
+```
