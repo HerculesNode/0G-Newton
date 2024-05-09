@@ -241,3 +241,9 @@ echo "0x$(0gchaind debug addr $(0gchaind keys show CÜZDAN-ADINI-YAZ -a) | grep 
 ```shell
 0gchaind tx staking delegate $(0gchaind keys show cüzdanadınıyaz --bech val -a) 1000000ua0gi --from cüzdanadınızyaz -y
 ```
+
+## 🟢 Unjail işlemi
+
+```shell
+0gchaind tx slashing unjail --from CÜZDAN-ADINIZ --gas=500000 --gas-prices=99999neuron -y
+```
