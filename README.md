@@ -247,3 +247,30 @@ echo "0x$(0gchaind debug addr $(0gchaind keys show CÜZDAN-ADINI-YAZ -a) | grep 
 ```shell
 0gchaind tx slashing unjail --from CÜZDAN-ADINIZ --gas=500000 --gas-prices=99999neuron -y
 ```
+
+## 🟢 Aktif listeye bakma
+
+```shell
+0gchaind q staking validators -o json --limit=1000 \
+| jq '.validators[] | select(.status=="BOND_STATUS_BONDED")' \
+| jq -r '.tokens + " - " + .description.moniker' \
+| sort -gr | nl
+```
+
+## 🟢 inAktif listeye bakma
+
+```shell
+0gchaind q staking validators -o json --limit=1000 \
+| jq '.validators[] | select(.status=="BOND_STATUS_UNBONDED")' \
+| jq -r '.tokens + " - " + .description.moniker' \
+| sort -gr | nl
+```
+
+## 🟢 Nodu silme
+
+```shell
+sudo systemctl stop 0gchaind.service
+sudo systemctl disable 0gchaind.service
+sudo rm /etc/systemd/system/0gchaind.service
+rm -rf $HOME/.0gchain $HOME/0g-chain
+```
