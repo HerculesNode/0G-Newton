@@ -266,6 +266,19 @@ echo "0x$(0gchaind debug addr $(0gchaind keys show CÜZDAN-ADINI-YAZ -a) | grep 
 | sort -gr | nl
 ```
 
+## 🟢 Bakiyeye bakma
+
+```shell
+0gchaind q bank balances $(0gchaind keys show CUZDAN-ADINIZ -a)
+```
+
+## 🟢 VAlidatör bilgilerine bakma duruma bakma
+
+```shell
+0gchaind q staking validator $(0gchaind keys show CUZDAN-ADINIZ --bech val -a)
+```
+
+
 ## 🟢 Nodu silme
 
 ```shell
